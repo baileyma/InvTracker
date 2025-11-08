@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InvTracker", "InvTracker\In
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Benchmarks", "Benchmarks\Benchmarks.csproj", "{86214B4F-4464-437B-823E-7EC0E3B357FD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InvTracker.Tests", "InvTracker.Tests\InvTracker.Tests.csproj", "{E928127F-ED41-4905-B599-F6D0767AC61D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{86214B4F-4464-437B-823E-7EC0E3B357FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{86214B4F-4464-437B-823E-7EC0E3B357FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{86214B4F-4464-437B-823E-7EC0E3B357FD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E928127F-ED41-4905-B599-F6D0767AC61D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E928127F-ED41-4905-B599-F6D0767AC61D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E928127F-ED41-4905-B599-F6D0767AC61D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E928127F-ED41-4905-B599-F6D0767AC61D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

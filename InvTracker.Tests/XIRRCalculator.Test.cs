@@ -1,9 +1,9 @@
-﻿using InvTracker.Models;
-using InvTracker.Utils;
-using Xunit;
+﻿//using InvTracker.Models;
+//using InvTracker.Utils;
+//using Xunit;
 
-namespace InvTracker.Tests
-{
+//namespace InvTracker.Tests
+//{
     
     //public class XIRRTest
     //{
@@ -46,4 +46,4 @@ namespace InvTracker.Tests
     //        var result = _sut.CalculateAccountReturns(accounts, balances, payments);
     //    }
     //}
-}
+//}
