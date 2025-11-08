@@ -1,4 +1,5 @@
-﻿//using BenchmarkDotNet.Running;
-//using Benchmarks;
+﻿using BenchmarkDotNet.Running;
+// using Benchmarks;
 
-//BenchmarkRunner.Run<XIRRBenchmark>();
+Console.WriteLine("hello");
+// BenchmarkRunner.Run<XIRRBenchmark>();
