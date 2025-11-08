@@ -1,0 +1,7 @@
+C:\Users\mattb\source\repos\InvTracker\Benchmarks\obj\Debug\net472\Benchmarks.csproj.AssemblyReference.cache
+C:\Users\mattb\source\repos\InvTracker\Benchmarks\obj\Debug\net472\Benchmarks.csproj.SuggestedBindingRedirects.cache
+C:\Users\mattb\source\repos\InvTracker\Benchmarks\obj\Debug\net472\Benchmarks.exe.config
+C:\Users\mattb\source\repos\InvTracker\Benchmarks\obj\Debug\net472\Benchmarks.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\mattb\source\repos\InvTracker\Benchmarks\obj\Debug\net472\Benchmarks.AssemblyInfoInputs.cache
+C:\Users\mattb\source\repos\InvTracker\Benchmarks\obj\Debug\net472\Benchmarks.AssemblyInfo.cs
+C:\Users\mattb\source\repos\InvTracker\Benchmarks\obj\Debug\net472\Benchmarks.csproj.CoreCompileInputs.cache

@@ -1,0 +1,131 @@
+[
+  {
+    "ContainingType": "InvTracker.Controllers.AccountsController",
+    "Method": "GetAccounts",
+    "RelativePath": "api/Accounts",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "System.Collections.Generic.IEnumerable\u00601[[InvTracker.Models.Account, InvTracker, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "InvTracker.Controllers.ReturnsController",
+    "Method": "GetAccountReturns",
+    "RelativePath": "api/Returns/accountreturns",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": [
+      {
+        "Type": "InvTracker.Models.AggregateAccountReturn",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "InvTracker.Controllers.ReturnsController",
+    "Method": "SendReturnsToExcelFile",
+    "RelativePath": "api/Returns/generateExcel",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "InvTracker.Controllers.ReturnsController",
+    "Method": "GetAccountYearlyDetails",
+    "RelativePath": "api/Returns/individualaccountdata/{accountId}/year/{year}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "accountId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      },
+      {
+        "Name": "year",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "InvTracker.Models.AccountYearlyDetail",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "InvTracker.Controllers.UpdateController",
+    "Method": "PostPayment",
+    "RelativePath": "api/Update/add-payment",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "payment",
+        "Type": "InvTracker.Models.PaymentToAdd",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "InvTracker.Controllers.UpdateController",
+    "Method": "DeletePayment",
+    "RelativePath": "api/Update/delete-payment/{paymentId}",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "paymentId",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "InvTracker.Controllers.UpdateController",
+    "Method": "UpsertBalance",
+    "RelativePath": "api/Update/update-balance",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "balance",
+        "Type": "InvTracker.Models.BalanceToAdd",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]
